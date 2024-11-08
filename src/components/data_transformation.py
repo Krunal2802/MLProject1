@@ -72,6 +72,7 @@ class DataTransformation:
         except Exception as e:
             raise customException(e,sys)
         
+    # output of data_ingestion will be given as input to this function {train_path,test_path}
     def initiate_data_transformation(self,train_path,test_path):
 
         try: 
